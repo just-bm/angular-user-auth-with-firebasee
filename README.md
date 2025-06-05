@@ -56,7 +56,7 @@ echo "export const environment = {
 
 
 
-##Project Structure
+## Project Structure
 src/
 ├── app/
 │   ├── auth/

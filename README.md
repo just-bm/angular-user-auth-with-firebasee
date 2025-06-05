@@ -58,8 +58,11 @@ echo "export const environment = {
 
 ## Project Structure
 src/
-├── app/ # Main application directory
-│ ├── auth/ # Authentication related files
+
+├── app/
+# Main application directory
+│ ├── auth/ 
+# Authentication related files
 │ │ ├── auth.service.ts # Firebase auth service (login/register/logout)
 │ │ └── auth.guard.ts # Route protection logic
 │ │

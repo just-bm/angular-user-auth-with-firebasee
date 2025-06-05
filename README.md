@@ -56,41 +56,4 @@ echo "export const environment = {
 
 
 
-## Project Structure
-src/
 
-├── app/
-# Main application directory
-│ ├── auth/ 
-# Authentication related files
-│ │ ├── auth.service.ts # Firebase auth service (login/register/logout)
-│ │ └── auth.guard.ts # Route protection logic
-│ │
-│ ├── components/ # UI components
-│ │ ├── login/ # Login page component
-│ │ │ ├── login.component.ts
-│ │ │ ├── login.component.html
-│ │ │ ├── login.component.scss
-│ │ │ └── login.component.spec.ts
-│ │ │
-│ │ ├── register/ # Registration page component
-│ │ │ ├── register.component.ts
-│ │ │ ├── register.component.html
-│ │ │ ├── register.component.scss
-│ │ │ └── register.component.spec.ts
-│ │ │
-│ │ └── dashboard/ # Protected dashboard component
-│ │ ├── dashboard.component.ts
-│ │ ├── dashboard.component.html
-│ │ ├── dashboard.component.scss
-│ │ └── dashboard.component.spec.ts
-│ │
-│ ├── app.module.ts # Root Angular module
-│ ├── app-routing.module.ts # Application routing configuration
-│ └── app.component.ts # Root application component
-│
-├── environments/ # Environment configuration
-│ ├── environment.ts # Development environment variables
-│ └── environment.prod.ts # Production environment variables
-│
-└── index.html # Main HTML entry point
